@@ -1,7 +1,7 @@
 {
-  "name": "@zerodb/functions-js",
+  "name": "@ainative/zerodb-functions",
   "version": "1.0.0",
-  "description": "ZeroDB Functions — serverless functions triggered by database events. Supabase Edge Functions compatible API.",
+  "description": "ZeroDB Functions \u2014 serverless functions triggered by database events. Supabase Edge Functions compatible API.",
   "main": "index.cjs",
   "module": "index.js",
   "types": "index.d.ts",
