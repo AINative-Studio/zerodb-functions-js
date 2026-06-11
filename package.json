@@ -1,0 +1,59 @@
+{
+  "name": "@zerodb/functions-js",
+  "version": "1.0.0",
+  "description": "ZeroDB Functions — serverless functions triggered by database events. Supabase Edge Functions compatible API.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/basic.test.js",
+    "test:verbose": "node --test --test-reporter spec tests/basic.test.js"
+  },
+  "keywords": [
+    "supabase-functions-alternative",
+    "serverless-functions",
+    "database-triggers",
+    "event-driven",
+    "zerodb",
+    "ainative",
+    "edge-functions",
+    "db-hooks",
+    "auto-provisioning",
+    "firebase-functions-alternative",
+    "claude",
+    "cursor",
+    "windsurf",
+    "mcp",
+    "vector-database",
+    "database-events",
+    "webhooks",
+    "serverless"
+  ],
+  "author": "AINative Studio <hello@ainative.studio>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/zerodb-functions-js.git"
+  },
+  "homepage": "https://zerodb.dev/docs/functions",
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/zerodb-functions-js/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
